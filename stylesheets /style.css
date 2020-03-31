@@ -238,12 +238,14 @@ td a:hover{
   text-overflow: ellipsis;
 }
 /*-------------*/
+#projects-images{
+  height: 100%;
+}
 .projects-images {
   display: block;
   width: 826px;
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 100%;
   padding: 0px;
   padding-right: 15px;
   padding-top: 15px;
