@@ -1,0 +1,18 @@
+.btn{
+  border-radius: 0px;
+}
+.btn-primary{
+  border: none;
+}
+
+.navigation-home{
+  height: 30px;
+}
+.nav-header{
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
