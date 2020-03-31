@@ -1,18 +1,41 @@
-.btn{
-  border-radius: 0px;
-}
-.btn-primary{
-  border: none;
-}
-
-.navigation-home{
-  height: 30px;
-}
-.nav-header{
-  font-weight: bold;
-  padding-top: 5px;
-  padding-bottom: 5px;
+/* navigation */
+.navbar{
+  padding: 0px;
   background-color: black;
+  font-weight: bold;
+}
+.navbar-container{
+  padding: 0px;
+}
+.col-6:hover{
+  background-color: blue;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+.navbar-toggler{
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 38px;
+  border-radius: 0px;
+  padding: 8px 12px 8px 12px;
+}
+.sarvesh-home{
+  font-size: 20px;
+  background-color: black;
+  padding: 8px 12px 8px 12px;
+  color: white;
+  height: 100%;
+}
+.nav-item{
   color: white;
   font-size: 20px;
+}
+.nav-item:hover{
+  background-color: blue;
 }
