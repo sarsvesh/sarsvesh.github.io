@@ -150,6 +150,7 @@ input:focus{
   transition: 0.3s ease;
   text-decoration: none;
 }
+
 /*-------------*/
 #list{
   display: flex;
@@ -179,6 +180,13 @@ table{
   border-color: gray;
 }
 .projects-table__table {
+  width: 100%;
+}
+.filterDiv{
+  display: none;
+}
+.show{
+  display: table-row;
   width: 100%;
 }
 thead {
