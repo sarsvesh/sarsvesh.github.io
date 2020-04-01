@@ -283,6 +283,13 @@ td a:hover{
   .mx-auto{
     margin-right: -30px !important;
   }
+  .projects-control-header{
+    padding-top: 1em;
+    padding-left: 1em;
+  }
+  .projects-control-input{
+    display: none;
+  }
   .projects-list{
     display: none;
   }
