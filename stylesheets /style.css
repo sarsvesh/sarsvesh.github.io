@@ -279,6 +279,30 @@ td a:hover{
 .img-fluid{
   padding: 0px !important;
 }
+/*---------------*/
+
+.text-inline {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.cw--pad {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cw {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 890px;
+}
+h4{
+  text-decoration: underline;
+}
+.contact-info a{
+  font-family: monospace;
+  font-size: 20px;
+}
+
+
 @media (max-width: 575.98px) {
   .mx-auto{
     margin-right: -30px !important;
