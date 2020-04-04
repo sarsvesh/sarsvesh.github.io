@@ -14,9 +14,16 @@
   font-family: montreal-light-italic;
   src:url(fonts/NeueMontreal-LightItalic.otf)
 }
-
+@font-face{
+  font-family: "IBM Plex Mono";
+  src:url(fonts/IBM-Plex-Mono/IBMPlexMono-Regular.otf);
+}
+@font-face{
+  font-family: "IBM Plex Mono Bold";
+  src:url(fonts/IBM-Plex-Mono/IBMPlexMono-Medium.otf);
+}
 *{
-  font-family: 'montreal-bold';
+  font-family: 'IBM Plex Mono';
   font-weight: normal;
   overflow-x: hidden;
 }
@@ -66,6 +73,7 @@ body{
 .intro-page{
   padding: 0px;
   margin: 0px;
+  font-size: 1.5em;
 }
 .main-text{
   background-color: #343434;
@@ -82,14 +90,14 @@ body{
   margin: 16px;
   margin-top: 16px;
   padding: 0px;
-  font-family: monospace;
+  font-family: 'IBM Plex Mono Bold';
   font-size: 18px;
 }
 .side-text a{
   text-decoration: underline;
   color: #343434;
   line-height: 0.5rem;
-  font-family: monospace;
+  font-family: IBM Plex Mono Bold;
 }
 /* -----------projects page (header & nav)-------------- */
 
@@ -127,7 +135,7 @@ body{
   padding-right: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 0.5em;
-  font-family: 'montreal-bold', Arial, Helvetica, sans-serif;
+  font-family: 'IBM Plex Mono Bold', Arial, Helvetica, sans-serif;
   font-size: 17px;
 }
 input:focus{
@@ -216,11 +224,11 @@ tbody {
 td {
   display: table-cell;
   vertical-align: inherit;
-  font-size: 20px;
+  font-size: 1rem;
 }
 td a{
   color: #343434;
-  font-family: 'montreal-bold';
+  font-family: 'IBM Plex Mono Bold';
 }
 td a:hover{
   color: #3454d1;
